@@ -1,0 +1,51 @@
+.category-selection{
+  width: 100%; height: 100%;
+  background-color: var(--color-white);
+  color: var(--color-point);
+  padding: 6rem 1rem 0;
+  box-sizing: border-box;
+}
+
+.category-selection>img{
+  display: block;
+  margin: 0 auto;
+  animation-name: upndown;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  position: relative;
+  top:0;
+}
+.category-selection>h1{
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 4rem 0 1rem;
+}
+.category-selection>button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-point);
+  outline: none;
+  border: none;
+  border-top: 1px solid var(--color-point);
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+.category-selection>button:last-child{
+  border-bottom: 1px solid var(--color-point);
+}
+.category-selection>button>img{
+  width: 1rem;
+}
+
+@keyframes upndown {
+  0%{top:2rem}
+  50%{top:0}
+  100%{top:2rem}
+}

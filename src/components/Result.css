@@ -1,0 +1,44 @@
+.result{
+  width: 100%; height: 100%;
+  background-color: var(--color-white);
+  color: var(--color-point);
+  padding: 6rem 1rem 0;
+  box-sizing: border-box;
+}
+
+.result>.result-check{
+  width: 40%; height: fit-content;
+  background-color: var(--color-point);
+  border-radius: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.result>p,.result>h3{
+  text-align: center;
+}
+.result>h3{
+  font-size: 2rem;
+  margin: 3rem auto 4rem;
+}
+.result>.backHome{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.result>.backHome>button{
+  background-color: var(--color-white);
+  color: var(--color-point);
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+.result>.backHome>button>img{
+  width: 1rem;
+}

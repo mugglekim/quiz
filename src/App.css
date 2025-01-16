@@ -1,0 +1,14 @@
+:root{
+  /*** color ***/
+  --color-point: #D7282F;
+  --color-white: #F7F6F2;
+}
+
+.app{
+  width: 360px; height: 80vh;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  box-sizing: border-box;
+  font-weight: 400;
+  overflow: auto;
+}
